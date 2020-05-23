@@ -1,4 +1,3 @@
-cd ~/Desktop/Phidget22/VoltageRatioInput_Example/
 gcc VoltageRatioInput_Example.c ../Common/PhidgetHelperFunctions.c -o example -I../Common -lphidget22
 ./example
 export LC_ALL=en_US.utf-8
